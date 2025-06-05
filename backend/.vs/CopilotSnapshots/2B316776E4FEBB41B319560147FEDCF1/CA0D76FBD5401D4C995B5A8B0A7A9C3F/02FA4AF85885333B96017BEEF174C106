@@ -1,0 +1,85 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using QuestPDF.Infrastructure; // <-- Agrega este using
+
+using prueba_tecnica.Data; 
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add configuration for connection strings
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+
+// DbContext
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// JWT
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = "tu_issuer",
+        ValidAudience = "tu_audience",
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("clave_super_secreta_1234567890123456"))
+    };
+});
+
+builder.Services.AddAuthorization();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy => policy.WithOrigins("http://localhost:3000") // Cambia por la URL de tu frontend
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
+
+var app = builder.Build();
+
+// Configura la licencia de QuestPDF antes de cualquier uso
+QuestPDF.Settings.License = LicenseType.Community;
+
+// Migraciones automáticas y usuario admin por defecto
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+
+    // SEED: Agregar usuario admin si no existe
+    if (!db.Users.Any(u => u.Username == "admin"))
+    {
+        db.Users.Add(new prueba_tecnica.Models.User
+        {
+            Username = "admin",
+            Email = "admin@admin.com",
+            PasswordHash = "admin" // Contraseña en texto plano
+        });
+        db.SaveChanges();
+    }
+}
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseCors("AllowFrontend");
+
+app.MapControllers();
+
+app.Run();

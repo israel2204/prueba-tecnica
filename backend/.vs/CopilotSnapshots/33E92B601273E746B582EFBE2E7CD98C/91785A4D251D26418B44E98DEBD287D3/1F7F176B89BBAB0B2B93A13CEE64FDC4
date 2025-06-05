@@ -1,0 +1,17 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace prueba_tecnica.Models
+{
+    public class Product
+    {
+        public int Id { get; set; }
+
+        [Required]
+        public string Nombre { get; set; } = null!;
+
+        public string? Descripcion { get; set; }
+
+        [Required]
+        public decimal Precio { get; set; }
+    }
+}

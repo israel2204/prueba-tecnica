@@ -1,0 +1,20 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace prueba_tecnica.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+
+        [Required]
+        [MinLength(3, ErrorMessage = "El nombre de usuario debe tener al menos 3 caracteres.")]
+        public string Username { get; set; } = null!;
+
+        [Required]
+        [EmailAddress(ErrorMessage = "El email debe ser válido.")]
+        public string Email { get; set; } = null!;
+
+        [Required]
+        public string PasswordHash { get; set; } = null!;
+    }
+}

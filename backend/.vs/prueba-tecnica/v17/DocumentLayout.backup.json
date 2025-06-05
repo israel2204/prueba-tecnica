@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\migrations\\20250602034602_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:migrations\\20250602034602_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\migrations\\20250603031442_actualizamodelo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:migrations\\20250603031442_actualizamodelo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|c:\\users\\irra2\\onedrive\\desktop\\prueba-tecnica\\backend\\prueba-tecnica\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B047FCB-DE9C-43B0-9CFD-E80A06109FC5}|prueba-tecnica.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T02:23:47.474Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250603031442_ActualizaModelo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Migrations\\20250603031442_ActualizaModelo.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250603031442_ActualizaModelo.Designer.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Migrations\\20250603031442_ActualizaModelo.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250603031442_ActualizaModelo.Designer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:43:51.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250602034602_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Migrations\\20250602034602_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250602034602_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Migrations\\20250602034602_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250602034602_InitialCreate.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:48:08.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:18:47.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T01:16:11.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:15:48.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:15:19.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:14:12.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\irra2\\OneDrive\\Desktop\\prueba-tecnica\\Backend\\prueba-tecnica\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:13:32.002Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
