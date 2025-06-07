@@ -21,7 +21,7 @@ export default function Home() {
     };
 
     try {
-      const res = await fetch("https://localhost:7171/api/Auth/login", {
+      const res = await fetch("http://localhost:5000/api/Auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

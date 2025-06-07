@@ -30,7 +30,7 @@ namespace prueba_tecnica.Controllers
             var user = await _context.Users
                 .FirstOrDefaultAsync(u => u.Username == request.Username && u.PasswordHash == request.Password);
 
-            if (user == null)
+            if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
                 return Unauthorized(new { error = "Usuario o contraseña incorrectos." });
 
             var claims = new[]
@@ -71,7 +71,7 @@ namespace prueba_tecnica.Controllers
             {
                 Username = request.Username,
                 Email = request.Email,
-                PasswordHash = request.Password 
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password) 
             };
 
             _context.Users.Add(user);
